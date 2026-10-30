@@ -29,7 +29,7 @@
                   and <a href="https://www.media.mit.edu/people/hherr/overview/">Prof. Hugh Herr</a>  at MIT Media Lab.
                 </p>
                   <p>
-                    I'm interested in robots &#129470 that assist human&#x1F46B; in all sorts of ways. Currently,  I'm focusing on designing algorithms that enable humanoid robots to adapt intelligently to uncertainties during loco-manipulation!
+                    I care about robots &#129470; that physically interact with the world and assist humans &#x1F46B; in all sorts of ways. My research aims to make contact scalable &mdash; developing algorithms and data pipelines that let robots master contact-rich interaction, from humanoid loco-manipulation to dexterous manipulation, and adapt intelligently to real-world uncertainty.
                 </p>
                 
                 <p style="text-align:center">
@@ -40,13 +40,14 @@
                 </p>
               </td>
               <td style="padding:2.5%;width:40%;max-width:40%">
-                <a href="images/Cunxi Dai.png"><img style="width:100%;max-width:100%;object-fit: cover; border-radius: 50%;" alt="profile photo" src="images/Cunxi Dai.png" class="hoverZoomLink"></a>
+                <a href="images/cunxi_profile.jpg"><img style="display:block;margin-left:auto;margin-right:auto;width:100%;max-width:240px;aspect-ratio:1/1;object-fit:cover;object-position:50% 20%;border-radius:10px;" alt="profile photo" src="images/cunxi_profile.jpg" class="hoverZoomLink"></a>
               </td>
             </tr>
           </tbody></table>
           <h2>News</h2>
 
           <ul>
+            <li>&#x1F389;<strong>2026.9</strong>: Finished a wonderful internship at Amazon Frontier AI &amp; Robotics (FAR)!</li>
             <li>&#x1F389;<strong>2025.8</strong>: Starting my Ph.D. after a wonderful summer interning at <a href="https://www.dexmate.ai/">Dexmate</a>!</li>
             <li>&#x1F389;<strong>2025.2</strong>: Paper on Bi-Level MPC wall-pushing accepted to ICRA 2025, Atlanta:D.</li>
             <li>&#x1F389;<strong>2024.10</strong>: Paper Selected as <strong>Best Papaer Finalist in Mobile manipulation</strong> at IROS 2024!</li>
@@ -62,6 +63,158 @@
           <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
 
     <p>*Equal Contribution, $Denotes core contributors</p>
+
+
+    <tr>
+      <td style="padding:20px;width:25%;vertical-align:middle">
+        <div class="one">
+          <div class="two" id='card_image'><video  width=100% height=100% muted autoplay loop>
+          <source src="videos/CARD.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+          </video></div>
+
+        </div>
+      </td>
+      <td style="padding:20px;width:75%;vertical-align:middle">
+      <span class="papertitle">CARD: Contact-Anchored Retargeting for Dexterous Manipulation
+</span>
+        <br>
+        <strong>Cunxi Dai</strong>,
+        <a href="http://botao.me/">Botao He</a>*,
+        <a href="https://fhogan.github.io/">Francois R. Hogan</a>*,
+        Wei Pan*,
+        <a href="https://freddierao.github.io/">Rao Fu</a>,
+        <a href="https://wen-hanhsieh.github.io/">Wen-Han Hsieh</a>,
+        <a href="https://ruoshiliu.github.io/">Ruoshi Liu</a>,
+        <a href="https://people.eecs.berkeley.edu/~malik/">Jitendra Malik</a>,
+        <a href="https://www.gshi.me/">Guanya Shi</a>,
+        <a href="https://akashsharma02.github.io/">Akash Sharma</a>
+
+        <br>
+        <em>CoRL Scaling H2R Workshop</em>, 2026
+        <br>
+        <a href="https://arxiv.org/abs/2610.36539">arXiv</a> /
+        <a href="https://card-retargeting.github.io/">webpage</a>
+
+        <p></p>
+        <p>
+          <strong>TL;DR:</strong> CARD is a simulator- and object-free framework that retargets human demonstrations to robot actions by explicitly preserving contact force targets, unifying video, motion capture, and tactile-glove data through a shared hand-contact representation.
+        </p>
+      </td>
+    </tr>
+
+
+    <tr>
+      <td style="padding:20px;width:25%;vertical-align:middle">
+        <div class="one">
+          <div class="two" id='manifold_image'></div>
+          <img src='images/manifold.png' width="160">
+        </div>
+      </td>
+      <td style="padding:20px;width:75%;vertical-align:middle">
+      <span class="papertitle">Trajectory Planning without Trajectory Data: A Manifold-Guided Approach
+</span>
+        <br>
+        <a href="https://silongyong.github.io/">Silong Yong</a>,
+        <a href="https://liuanji.github.io/">Anji Liu</a>,
+        <strong>Cunxi Dai</strong>,
+        Carl Busart,
+        <a href="https://www.gshi.me/">Guanya Shi</a>,
+        <a href="https://yilundu.github.io/">Yilun Du</a>,
+        <a href="https://www.ri.cmu.edu/ri-faculty/katia-sycara/">Katia Sycara</a>,
+        <a href="https://yaqi-xie.me/">Yaqi Xie</a>
+
+        <br>
+        <em>arXiv preprint</em>, 2026
+        <br>
+        <a href="https://arxiv.org/abs/2610.08863">arXiv</a> /
+        <a href="https://github.com/SilongYong/Ariadne/">code</a>
+
+        <p></p>
+        <p>
+          <strong>TL;DR:</strong> Ariadne learns the underlying state-space manifold from state-only observations and uses its geometry to construct feasible trajectories, generalizing to unseen start-goal pairs without any expert trajectory data.
+        </p>
+      </td>
+    </tr>
+
+
+    <tr>
+      <td style="padding:20px;width:25%;vertical-align:middle">
+        <div class="one">
+          <div class="two" id='enpire_image'></div>
+          <img src='images/enpire.png' width="160">
+        </div>
+      </td>
+      <td style="padding:20px;width:75%;vertical-align:middle">
+      <span class="papertitle">ENPIRE: Agentic Robot Policy Self-Improvement in the Real World
+</span>
+        <br>
+        <a href="https://wenlixiao-cs.github.io/">Wenli Xiao</a>,
+        Jia Xie,
+        <a href="https://tonghe-zhang.github.io/">Tonghe Zhang</a>,
+        Haotian Lin,
+        <a href="https://max-fu.github.io/">Letian "Max" Fu</a>,
+        <a href="https://haoruxue.github.io/">Haoru Xue</a>,
+        Jalen Lu,
+        Yi Yang,
+        <strong>Cunxi Dai</strong>,
+        Zi Wang,
+        <a href="https://jimmyyhwu.github.io/">Jimmy Wu</a>,
+        <a href="https://guanzhi.me/">Guanzhi Wang</a>,
+        <a href="https://people.eecs.berkeley.edu/~sastry/">S. Shankar Sastry</a>,
+        <a href="https://goldberg.berkeley.edu/">Ken Goldberg</a>,
+        <a href="https://jimfan.me/">Linxi "Jim" Fan</a>,
+        <a href="https://www.cs.utexas.edu/~yukez/">Yuke Zhu</a>,
+        <a href="https://www.gshi.me/">Guanya Shi</a>
+
+        <br>
+        <em>CoRL</em>, 2026
+        <br>
+        <a href="https://arxiv.org/abs/2606.19980">arXiv</a>
+
+        <p></p>
+        <p>
+          <strong>TL;DR:</strong> ENPIRE lets coding agents construct real-world robot environments and autonomously iterate on policy improvement, enabling robot policies to self-improve on dexterous manipulation tasks without human algorithm engineering.
+        </p>
+      </td>
+    </tr>
+
+
+    <tr>
+      <td style="padding:20px;width:25%;vertical-align:middle">
+        <div class="one">
+          <div class="two" id='pgdg_image'><video  width=100% height=100% muted autoplay loop>
+          <source src="videos/PGDG.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+          </video></div>
+
+        </div>
+      </td>
+      <td style="padding:20px;width:75%;vertical-align:middle">
+      <span class="papertitle">PGDG: Physically Grounded Data Generation for Robust Bimanual Policy Learning from a Single Demonstration
+</span>
+        <br>
+        <strong>Cunxi Dai</strong>,
+        <a href="https://www.linkedin.com/in/haoran-chang-62049b246/">Haoran Chang</a>,
+        <a href="https://www.linkedin.com/in/adnl/">Aditya Nisal</a>,
+        <a href="https://rahulhkumar1709.wixsite.com/my-site-1">Rahul Kumar</a>,
+        <a href="https://gfchen01.cc/">Guofei Chen</a>,
+        <a href="https://taochenshh.github.io/">Tao Chen</a>,
+        <a href="https://yzqin.github.io/">Yuzhe Qin</a>,
+        <a href="https://www.gshi.me/">Guanya Shi</a>
+
+        <br>
+        <em>arXiv preprint</em>, 2026
+        <br>
+        <a href="https://arxiv.org/abs/2605.21710">arXiv</a> /
+        <a href="https://cunxid.github.io/PGDG/">webpage</a>
+
+        <p></p>
+        <p>
+          <strong>TL;DR:</strong> PGDG is a data generation framework with zero-shot curation that expands a single demonstration into a compact dataset of physically plausible recovery behaviors, enabling robust contact-rich bimanual policy learning.
+        </p>
+      </td>
+    </tr>
 
 
     <tr>
@@ -84,14 +237,14 @@ Reinforcement Learning
         Yitang Li*, Zhengyi Luo*, Tonghe Zhang$, <strong>Cunxi Dai$</strong>, Andrea Tirinzoni, Anssi Kanervisto, Haoyang Weng, Kris Kitani, Mateusz Guzek, Ahmed Touati, Alessandro Lazaric, Matteo Pirotta, Guanya Shi
 
         <br>
-        <em>in-submmision</em>, 2026
+        <em>ICLR</em>, 2026
         <br>
         <a href="https://arxiv.org/abs/2511.04131">arXiv</a> /
         <a href="https://lecar-lab.github.io/BFM-Zero/">webpage</a>
 
         <p></p>
         <p>
-          BFM-Zero is a behavioral foundation model that learns a shared latent space over motions, goals, and rewards via unsupervised RL, letting a single humanoid robot policy be prompted to perform diverse whole-body tasks in the real world.
+          <strong>TL;DR:</strong> BFM-Zero is a behavioral foundation model that learns a shared latent space over motions, goals, and rewards via unsupervised RL, letting a single humanoid robot policy be prompted to perform diverse whole-body tasks in the real world.
         </p>
       </td>
     </tr>
@@ -127,7 +280,7 @@ Manipulation
 
         <p></p>
         <p>
-          A holistic framework for dynamic interactive navigation that leverages learned representations for rapid adaptation to object dynamics, and utilizes model-based prediction to inform decision-making.
+          <strong>TL;DR:</strong> A holistic framework for dynamic interactive navigation that leverages learned representations for rapid adaptation to object dynamics, and utilizes model-based prediction to inform decision-making.
         </p>
       </td>
     </tr>
@@ -162,7 +315,7 @@ Manipulation
         <a href="https://cmushmoobot.github.io/Wallbounce/">webpage</a>
         <p></p>
         <p>
-        A bi-level MPC framework that enable non-preodic upper-body contact to achieve more agile locomotion.
+        <strong>TL;DR:</strong> A bi-level MPC framework that enable non-preodic upper-body contact to achieve more agile locomotion.
         </p>
       </td>
     </tr>
@@ -203,7 +356,7 @@ Manipulation
           <a href="https://spectrum.ieee.org/video-friday-racer-heavy">Video Friday</a>
           <p></p>
           <p>
-          Wheelchair maneuvering with Ballbot that balance on a single-spherical wheel.
+          <strong>TL;DR:</strong> Wheelchair maneuvering with Ballbot that balance on a single-spherical wheel.
           </p>
         </td>
       </tr>
@@ -239,7 +392,7 @@ Manipulation
         <a href="https://www.youtube.com/watch?v=cJOswbhRO_A&t=68s">YouTube</a>
         <p></p>
         <p>
-				Minimalist actuator realization of a wheel-leg transformable robot with tendon-driven transformation wheel module.
+				<strong>TL;DR:</strong> Minimalist actuator realization of a wheel-leg transformable robot with tendon-driven transformation wheel module.
         </p>
       </td>
     </tr>
@@ -273,7 +426,7 @@ Manipulation
         <a href="https://www.youtube.com/watch?v=LAovVVSIp7w">YouTube</a>
         <p></p>
         <p>
-				Robust design of a wheel-leg transformable robot for high-payload context.
+				<strong>TL;DR:</strong> Robust design of a wheel-leg transformable robot for high-payload context.
         </p>
       </td>
     </tr>
@@ -338,7 +491,7 @@ Manipulation
         <a href="https://www.youtube.com/watch?v=r9paVerBGAc">YouTube</a>
         <p></p>
         <p>
-				Knee joint misalignment reduction with an RPR mechanism-based device.
+				<strong>TL;DR:</strong> Knee joint misalignment reduction with an RPR mechanism-based device.
         </p>
       </td>
     </tr>
